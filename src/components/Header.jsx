@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import ChangeBackground from '../redux/ChangeBackground';
+import { Link, Element } from 'react-scroll';
 
 
 function Header() {
@@ -14,11 +15,13 @@ function Header() {
               <h1>Rent Moto</h1>
             </div>
             <div className='nav-col-2'>
-              <ul className='nav-list'>Home</ul>
-              <ul className='nav-list'>Brands</ul>
-              <ul className='nav-list'>Units</ul>
-              <ul className='nav-list'>Location</ul>
-              <ul className='nav-list'>Contact</ul>              
+              <ul>
+                <li><Link to="header-section" smooth={true} duration={500}>Home</Link></li>
+                <li><Link to="about-section" smooth={true} duration={600}>Brands</Link></li>
+                <li><Link to="list-section" smooth={true} duration={700}>Units</Link></li>
+                <li><Link to="rating-section" smooth={true} duration={800}>Feedbacks</Link></li>
+                <li><Link to="contact-section" smooth={true} duration={900}>Contact</Link></li>
+              </ul>
             </div>
             </div>
           <div>
