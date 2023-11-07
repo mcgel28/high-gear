@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rent-moto/static/css/main.e1c41a6d.css",
-    "main.js": "/rent-moto/static/js/main.c1a548ad.js",
+    "main.css": "/rent-moto/static/css/main.e4bc9cda.css",
+    "main.js": "/rent-moto/static/js/main.8aea254a.js",
     "static/media/ducatibg.jpeg": "/rent-moto/static/media/ducatibg.27f29fef9bda5818e507.jpeg",
     "static/media/suzukibg.jpg": "/rent-moto/static/media/suzukibg.68847f456e5d620df207.jpg",
     "static/media/kawasakibg.jpg": "/rent-moto/static/media/kawasakibg.89e7eb8bdb5dfa9dfbd6.jpg",
@@ -36,11 +36,11 @@
     "static/media/v4r.jpg": "/rent-moto/static/media/v4r.d06bb72ff581e340c341.jpg",
     "static/media/ktm.png": "/rent-moto/static/media/ktm.144b08969e5888b239ad.png",
     "index.html": "/rent-moto/index.html",
-    "main.e1c41a6d.css.map": "/rent-moto/static/css/main.e1c41a6d.css.map",
-    "main.c1a548ad.js.map": "/rent-moto/static/js/main.c1a548ad.js.map"
+    "main.e4bc9cda.css.map": "/rent-moto/static/css/main.e4bc9cda.css.map",
+    "main.8aea254a.js.map": "/rent-moto/static/js/main.8aea254a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1c41a6d.css",
-    "static/js/main.c1a548ad.js"
+    "static/css/main.e4bc9cda.css",
+    "static/js/main.8aea254a.js"
   ]
 }
