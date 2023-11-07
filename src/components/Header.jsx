@@ -9,13 +9,13 @@ function Header() {
   
     <div id="header-section">
       <ChangeBackground />
-      <div className='container'>
+      
         <div className='nav-bar'>
             <div className="nav-col-1">
               <h1>Rent Moto</h1>
             </div>
             <div className='nav-col-2'>
-              <ul>
+              <ul className='nav-list'>
                 <li><Link to="header-section" smooth={true} duration={500}>Home</Link></li>
                 <li><Link to="about-section" smooth={true} duration={600}>Brands</Link></li>
                 <li><Link to="list-section" smooth={true} duration={700}>Units</Link></li>
@@ -26,7 +26,7 @@ function Header() {
             </div>
           <div>
         </div>
-      </div>
+     
       <div className='landing-page'>
         <div className='container'>
           <div className='landing-page-title'>
