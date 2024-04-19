@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rent-moto/static/css/main.621c49a3.css",
-    "main.js": "/rent-moto/static/js/main.8aea254a.js",
+    "main.js": "/rent-moto/static/js/main.6b27c196.js",
     "static/media/ducatibg.jpeg": "/rent-moto/static/media/ducatibg.27f29fef9bda5818e507.jpeg",
     "static/media/suzukibg.jpg": "/rent-moto/static/media/suzukibg.68847f456e5d620df207.jpg",
     "static/media/kawasakibg.jpg": "/rent-moto/static/media/kawasakibg.89e7eb8bdb5dfa9dfbd6.jpg",
@@ -21,13 +21,13 @@
     "static/media/feedback2.jpg": "/rent-moto/static/media/feedback2.95e5645276002d5fd515.jpg",
     "static/media/r1.jpg": "/rent-moto/static/media/r1.78002e59a6518444b76d.jpg",
     "static/media/image2.jpg": "/rent-moto/static/media/image2.295e12ae13b811e41a70.jpg",
-    "static/media/feedback1.jpg": "/rent-moto/static/media/feedback1.9db6a605432f6d3a07ba.jpg",
     "static/media/suzuki.png": "/rent-moto/static/media/suzuki.4a9b44b39317b949460b.png",
     "static/media/cfmoto.jpg": "/rent-moto/static/media/cfmoto.961e2aff077e02e534ae.jpg",
     "static/media/gsxr1000.jpg": "/rent-moto/static/media/gsxr1000.309047b6fec66b0198a6.jpg",
+    "static/media/feedback4.jpg": "/rent-moto/static/media/feedback4.ec43bdc629f61f6b9312.jpg",
     "static/media/kawasaki.jpg": "/rent-moto/static/media/kawasaki.478c244492361d5530a2.jpg",
+    "static/media/feedback1.jpg": "/rent-moto/static/media/feedback1.10a28fb6983732296918.jpg",
     "static/media/sr450.jpg": "/rent-moto/static/media/sr450.90fbf5650f47e8c3ea6d.jpg",
-    "static/media/feedback4.jpg": "/rent-moto/static/media/feedback4.63ff22ec18d288c818de.jpg",
     "static/media/feedback3.jpg": "/rent-moto/static/media/feedback3.065a21c9a2f2596a3ab4.jpg",
     "static/media/aprilia.png": "/rent-moto/static/media/aprilia.b8eccf2eecc3441af34e.png",
     "static/media/cbr1000rr-r.jpg": "/rent-moto/static/media/cbr1000rr-r.a98bdf4efd2b7447e3c0.jpg",
@@ -37,10 +37,10 @@
     "static/media/ktm.png": "/rent-moto/static/media/ktm.144b08969e5888b239ad.png",
     "index.html": "/rent-moto/index.html",
     "main.621c49a3.css.map": "/rent-moto/static/css/main.621c49a3.css.map",
-    "main.8aea254a.js.map": "/rent-moto/static/js/main.8aea254a.js.map"
+    "main.6b27c196.js.map": "/rent-moto/static/js/main.6b27c196.js.map"
   },
   "entrypoints": [
     "static/css/main.621c49a3.css",
-    "static/js/main.8aea254a.js"
+    "static/js/main.6b27c196.js"
   ]
 }
