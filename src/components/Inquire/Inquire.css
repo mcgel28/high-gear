@@ -75,9 +75,12 @@
     text-align: center;
     cursor: pointer;
     color: #fff;
-    background-color: #141d48ab;
+    background-color: #141d48b9;
   }
   
+  .get-a-qoute:hover {
+    background-color: #141d48ec;
+  }
 
   
 

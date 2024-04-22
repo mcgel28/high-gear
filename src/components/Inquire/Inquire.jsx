@@ -26,7 +26,7 @@ function Inquire() {
          
             <form>
               <label><img src={phone} alt='phone'/>Contact: </label>
-              <input type="number" id="phone" name="phone" placeholder="Type your contact"></input>
+              <input type="text" id="phone" name="phone" placeholder="Type your contact"></input>
              </form>
         
             <form>
