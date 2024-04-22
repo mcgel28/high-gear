@@ -1,0 +1,139 @@
+#navbar-section {
+  width: 100vw;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav-bar {
+  max-width: 1600px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+  .nav-col-1 {
+    display: flex;
+    color:#ffffff;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .nav-col-1 > img {
+    height: 5rem;
+  }
+
+  .nav-col-1 > span {
+    letter-spacing: -3px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  .nav-col-2 {
+    display: flex;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  #menu {
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #menu li {
+    cursor: pointer;
+    list-style: none;
+    margin: 20px;
+  }
+
+  #bars {
+    color: rgb(177, 177, 177);
+    font-size: 30px;
+    align-items: center;
+}
+
+.bars::before {
+    display: none;
+}
+
+.close {
+    color: rgb(177, 177, 177);
+    font-size: 30px;
+  
+}
+
+#mobile {
+  display: none;
+}
+
+#mobile span {
+  color: #fff;
+  align-items: center;
+}
+
+
+
+    
+@media screen and (max-width: 480px) {
+  .nav-col-1 > img {
+    height: 3rem;
+  }
+  .nav-col-1 > span {
+    letter-spacing: -3px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-col-1 > img {
+    height: 4rem;
+  }
+  .nav-col-1 > span {
+    letter-spacing: -3px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+
+@media  screen and (max-width: 1000px) {
+    #mobile {
+        display: block;
+    }
+
+    #mobile span {
+        font-size: 30px;
+        transition: .8s ease-in-out;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 200px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.425);
+    }
+
+    #menu.active {
+        right: 0px;
+        backdrop-filter: blur(15%);
+        transition: 1s ease-in-out;
+    }
+
+    #menu > li {
+        margin-bottom: 20px;
+    }
+
+}

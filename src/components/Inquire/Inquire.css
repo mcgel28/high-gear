@@ -1,0 +1,98 @@
+#form-section {
+    width: 100vw;
+    height: 100%;
+  }
+  
+  .form-container {
+    max-width: 1350px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 20px;
+    box-shadow: 3px 5px 13px gray;
+  }
+
+  .form-container > h2 {
+    margin-bottom: 20px;
+  }
+  
+ .form-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: end;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 0 12px;
+    align-items: center;
+    
+  }
+  
+  label > img {
+    margin-right: 10px;
+     width: 30px;
+    height: 30px;
+  }
+
+  
+  .placeholder::placeholder {
+    color: #999; /* Adjust the color as needed */
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+   
+    width: auto;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  .get-a-qoute {
+    width: auto;
+    height: 42px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Lexend';
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #141d48ab;
+  }
+  
+
+  
+
+@media (max-width: 858px) {
+  .form-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (min-width: 859px) and (max-width: 1150px) {
+  .form-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

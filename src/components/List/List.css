@@ -1,0 +1,41 @@
+/* List Section */
+#list-section {
+    padding: 20px;
+    height: max-content;
+    background-image: url(../../images//motogpBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card {
+    padding: 10px;
+    border: 3px solid gray;
+    margin: 10px;
+    height: 85%;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .square-model {
+    width: 220px; 
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  .card-bg h2 {
+    text-align: center;
+  }
+  
+  .list-unit {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "../redux/Card";
-import units from "../redux/units"
+import Card from "../../utilities/Card";
+import units from "../../utilities/units"
+import './List.css'
 
 function createCard(contact) {
   return <Card 
@@ -14,7 +15,8 @@ function createCard(contact) {
 
 function List() {
   return (
-    <div id="list-section">
+    <section id="list-section">
+      <div className="container">
         <div className="list-container">
           <div className="list-unit">
             {units.map(createCard)}
@@ -22,7 +24,8 @@ function List() {
 
           </div>
         </div>
-    </div>
+        </div>
+    </section>
   )
 }
 

@@ -1,0 +1,71 @@
+/* About Section */
+#brand-section {
+    height: 100%;
+    margin: 5% 0;
+  }
+
+#brand-section h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+  .brand-container {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+
+ 
+  .imgslider {
+    flex: 1;
+  }
+
+  .zx10 {
+    flex: 1;  
+    text-align: center;
+  }
+
+  
+  .zx10 p {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .zx10r {
+    margin: auto;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  
+  .brand-logo {
+    height: 80px;
+    margin: 10px;
+    position: inherit;
+   
+  }
+  
+  .brandlogo {
+    margin: 10px;
+    height: 150px;
+    max-width: fit-content;
+  }
+
+  @media screen and (max-width:497px) {
+    .zx10r {
+    
+      height: 350px;
+   
+    }
+  }
+
+  @media screen and (max-width:929px) {
+    .brand-container {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+    }
+  }

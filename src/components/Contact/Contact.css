@@ -1,0 +1,55 @@
+/* Contact Section */
+#contact-section {
+    height: fit-content;
+    background-image: url(../../images/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 20px;
+    justify-content: center;
+  }
+  
+  .contact-icons > *{
+    margin: 10px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .contact-col {
+    margin: 20px 50px 20px 50px;
+  }
+  .contact-col img {
+    height: 5rem;
+  }
+  
+  .contact-col li {
+    list-style: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .contact-col h3 {
+    margin: 10px;
+  }
+  
+  .contact-footer {
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .overlay {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.616); /* Adjust the alpha for darkness */
+    z-index: 3;
+  }

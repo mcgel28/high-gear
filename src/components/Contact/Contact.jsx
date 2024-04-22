@@ -1,4 +1,5 @@
 import React from 'react'
+import hglogo from '../../images/highgear.png'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -6,18 +7,19 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaTv } from "react-icons/fa";
+import './Contact.css'
 
 function Contact() {
   return (
-    <div id="contact-section">
-      <div className='contact-overlay'>
+    <section id="contact-section">
+      <div className="overlay">
+      <div className="container">
         <div className='contact-container'>
-
           <div className='contact-col'>
-            <h1>Rent Moto</h1>
+            <img src={hglogo} alt="high gear" />
+            <h1>High Gear</h1>
             <div className='contact-icons'><FaFacebook /><FaInstagram /><FaTwitter /></div>
           </div>
-
           <div className='contact-col'>
             <h3>CITIES</h3>
             <ul>
@@ -39,12 +41,12 @@ function Contact() {
           </div>
 
           <div className='contact-col'>
-            <h3>RENTAL</h3>
+            <h3>SALES</h3>
               <ul>
                 <li>Insurance</li>
                 <li>How It Works</li>
-                <li>Rent a Bigbike</li>
-                <li>Upload your Bigbike</li>
+                <li>Buy a Bigbike</li>
+                <li>Maintain Performance</li>
               </ul>
           </div>
 
@@ -53,17 +55,18 @@ function Contact() {
                 <ul>
                   <li><FaPhoneAlt /> +63 901 234 5678</li>
                   <li><FaWhatsapp /> WhatsApp Chat</li>
-                  <li><FaEnvelope /> support@rentmoto.com</li>
-                  <li><FaTv /> Rent Moto Website</li>
+                  <li><FaEnvelope /> support@highgear.com</li>
+                  <li><FaTv /> High Gear Website</li>
                 </ul>
           </div>
         </div>
-        <hr />
-        <div className='contact-footer'>© 2023 Company, Inc. All rights reserved.
-                <br /> Made by: Adrian Miguel Arellano Ü
+     
+        <div className='contact-footer'>© 2024 Company, Inc. All rights reserved.
+                <br /> Designed & Built by: Adrian Miguel Arellano 
+        </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

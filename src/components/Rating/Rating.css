@@ -1,0 +1,81 @@
+/* Rating Section */
+#rating-section {
+    height: auto;
+    text-align: center;
+  }
+  
+  .rating-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
+  }
+  
+  .rating-choose {
+    padding: 30px;
+    text-align: start;
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .rating-choose h1 {
+    font-size: 40px;
+    margin: 20px;
+  }
+ 
+  
+  .rating-choose li {
+    list-style: none;
+    font-size: 25px;
+    margin: 5px;
+  }
+  
+  .gofa-rating {
+ 
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(240, 245, 255);
+   
+    text-align: center;
+  }
+  
+  .gofa-rating h2 {
+    font-size: 50px;
+  }
+  
+  .rating-container span {
+    color: blueviolet;
+  }
+
+  .fbcard-container {
+    margin: auto;
+    margin-bottom: 40px;
+    width: fit-content;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 30px;
+    background-color: rgb(240, 245, 255);
+    padding: 30px;
+  }
+  
+  .feedback-image {
+    padding: 10px;
+    height: 200px;
+    max-width: max-content;
+    border-radius: 50%;
+  }
+  
+  .feedbackname {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .feedback {
+    font-size: 20px;
+  }
+  
+  

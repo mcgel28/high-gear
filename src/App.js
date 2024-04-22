@@ -1,9 +1,12 @@
 import './App.css';
-import Header from "./components/Header"
-import About from "./components/About"
-import List from "./components/List"
-import Contact from './components/Contact'
-import Rating from "./components/Rating"
+import Navbar from './components/Navbar/Navbar';
+import Header from "./components/Header/Header"
+import Inquire from "./components/Inquire/Inquire"
+import Brand from "./components/Brand/Brand"
+import List from "./components/List/List"
+import Rating from "./components/Rating/Rating"
+import Contact from './components/Contact/Contact'
+
 
 
 
@@ -11,11 +14,14 @@ import Rating from "./components/Rating"
 function App() {
   return (
     <>
+    <Navbar />
     <Header />
-    <About />
+    <Inquire />
+    <Brand />
     <List />
     <Rating />
     <Contact />
+ 
     </>
   );
 }
