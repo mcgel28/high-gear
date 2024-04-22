@@ -14,12 +14,11 @@
     z-index: -1;
   }
   
-  .overlay {
-    position: inherit;
-    top: 0;
+  .dark{
+    position: absolute;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.349); /* Adjust the alpha for darkness */
+    background-color: rgba(12, 12, 12, 0.5); 
     z-index: 1;
   }

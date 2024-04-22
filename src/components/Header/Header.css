@@ -24,9 +24,8 @@
     color: rgba(180, 180, 180, 0.897);
     text-shadow: 3px 3px 10px black;
   }
-  
-  
-  
+
+
 
   @media screen and (max-width: 480px) {
     .landing-page-title {

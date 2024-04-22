@@ -6,25 +6,25 @@ import feedback4 from "../images/feedbackImg/feedback4.jpg"
 const feedback = [
     {
       id: 1,
-      feedback: "They are very accomodating and easy to transact with! Definitely the ones you want to go to",
+      feedback: "Enjoying the identity that comes with being part of the big bike",
       imgUrl: feedback1,
       name: "Michael Tianzon Mercado",
     },
     {
         id: 2,
-        feedback: "The unit is good and easy to avail. What you pay to them is really worth the experience!",
+        feedback: "The striking designs and aesthetics of big bikes garner admiration from riders and onlookers!",
         imgUrl: feedback2,
         name: "Gerald Dela Rosa",
       },
       {
         id: 3,
-        feedback: "Would highly recommend, no hidden charges. Until our next rental, thankyou so much!",
+        feedback: "Just like addiction, it is dangerous, yet immensely pleasurable once you feel the power!",
         imgUrl: feedback3,
         name: "Jeremiah Jovellanos",
       },
       {
         id: 4,
-        feedback: "The condition of the motorcycles was excellent I would definitely rent with them again!",
+        feedback: "I really like the ergonomic design of the bike for enjoyable long rides",
         imgUrl: feedback4,
         name: "Ervyn Utrela",
       },

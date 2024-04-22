@@ -43,7 +43,7 @@
   }
 
   .zx10r:hover {
-    transform:rotateZ(20deg)
+    transform:scale(1.1)
   }
   
   .brand-logo {

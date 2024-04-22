@@ -31,7 +31,7 @@ useEffect(() => {
 
   return (
     <div className="background-slider">
-        <div className="overlay"></div>
+        <div className="dark"></div>
 
       <img src={images[currentImage]} alt="Background" className='background-image' />
       
