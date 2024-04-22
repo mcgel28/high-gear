@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/high-gear/static/css/main.e268359e.css",
-    "main.js": "/high-gear/static/js/main.5acb957b.js",
+    "main.css": "/high-gear/static/css/main.921bd583.css",
+    "main.js": "/high-gear/static/js/main.13f86132.js",
     "static/media/ducatibg.jpeg": "/high-gear/static/media/ducatibg.27f29fef9bda5818e507.jpeg",
     "static/media/suzukibg.jpg": "/high-gear/static/media/suzukibg.68847f456e5d620df207.jpg",
     "static/media/kawasakibg.jpg": "/high-gear/static/media/kawasakibg.89e7eb8bdb5dfa9dfbd6.jpg",
@@ -39,11 +39,11 @@
     "static/media/brand.png": "/high-gear/static/media/brand.a35037e9bcde06c35b4f.png",
     "static/media/ktm.png": "/high-gear/static/media/ktm.144b08969e5888b239ad.png",
     "index.html": "/high-gear/index.html",
-    "main.e268359e.css.map": "/high-gear/static/css/main.e268359e.css.map",
-    "main.5acb957b.js.map": "/high-gear/static/js/main.5acb957b.js.map"
+    "main.921bd583.css.map": "/high-gear/static/css/main.921bd583.css.map",
+    "main.13f86132.js.map": "/high-gear/static/js/main.13f86132.js.map"
   },
   "entrypoints": [
-    "static/css/main.e268359e.css",
-    "static/js/main.5acb957b.js"
+    "static/css/main.921bd583.css",
+    "static/js/main.13f86132.js"
   ]
 }
